@@ -31,7 +31,7 @@
         <scene sceneID="FbK-av-gHa">
             <objects>
                 <viewControllerPlaceholder storyboardName="HomeVC" id="fVV-uG-QZC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ba6-Fm-faY"/>
+                    <tabBarItem key="tabBarItem" title="ホーム" id="ba6-Fm-faY"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b4N-qt-wCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -41,7 +41,7 @@
         <scene sceneID="8Q2-3d-Uqe">
             <objects>
                 <viewControllerPlaceholder storyboardName="SettingVC" id="CeO-qJ-MGD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="8rx-Ir-gMe"/>
+                    <tabBarItem key="tabBarItem" title="設定" id="8rx-Ir-gMe"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="acw-j1-Erx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
