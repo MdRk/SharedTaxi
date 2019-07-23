@@ -13,18 +13,50 @@
         <!--ホーム-->
         <scene sceneID="jKc-3o-vfu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2PU-Ag-5uE" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="vsc-Bd-YWT" customClass="HomeVC" customModule="SharedTaxi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K6P-SQ-oMm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Opd-dr-1kP">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Zmf-D3-ajL">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="roomCell" id="L31-Y9-xW8" customClass="RoomCVCell" customModule="SharedTaxi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Opd-dr-1kP" firstAttribute="bottom" secondItem="FCr-rt-olN" secondAttribute="bottom" id="8n6-B6-fYY"/>
+                            <constraint firstItem="Opd-dr-1kP" firstAttribute="trailing" secondItem="FCr-rt-olN" secondAttribute="trailing" id="Ath-mX-z46"/>
+                            <constraint firstItem="Opd-dr-1kP" firstAttribute="leading" secondItem="FCr-rt-olN" secondAttribute="leading" id="jpm-Sh-F68"/>
+                            <constraint firstItem="Opd-dr-1kP" firstAttribute="top" secondItem="FCr-rt-olN" secondAttribute="top" id="uE2-Rf-GHP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FCr-rt-olN"/>
                     </view>
                     <navigationItem key="navigationItem" title="ホーム" id="l2G-Kt-N9S"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="roomCollectionView" destination="Opd-dr-1kP" id="qkx-8M-mea"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2PU-Ag-5uE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="18.75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ksL-E0-qST">
