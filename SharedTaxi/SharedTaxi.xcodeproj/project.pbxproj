@@ -14,6 +14,13 @@
 		32FEDB4622E5833800462E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDB4422E5833800462E12 /* LaunchScreen.storyboard */; };
 		32FEDB5122E5833900462E12 /* SharedTaxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB5022E5833900462E12 /* SharedTaxiTests.swift */; };
 		32FEDB5C22E5833900462E12 /* SharedTaxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB5B22E5833900462E12 /* SharedTaxiUITests.swift */; };
+		32FEDB6A22E585A800462E12 /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDB6922E585A800462E12 /* HomeVC.storyboard */; };
+		32FEDB6E22E5860300462E12 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB6D22E5860300462E12 /* HomeVC.swift */; };
+		32FEDB7022E5866800462E12 /* SettingVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDB6F22E5866800462E12 /* SettingVC.storyboard */; };
+		32FEDB7222E5867C00462E12 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB7122E5867C00462E12 /* SettingVC.swift */; };
+		32FEDB7622E5A8CC00462E12 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB7522E5A8CB00462E12 /* UIViewExtension.swift */; };
+		32FEDB7A22E6098500462E12 /* RoomCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB7822E6098500462E12 /* RoomCVCell.swift */; };
+		32FEDB7B22E6098500462E12 /* RoomCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDB7922E6098500462E12 /* RoomCVCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		32FEDB5722E5833900462E12 /* SharedTaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedTaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FEDB5B22E5833900462E12 /* SharedTaxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTaxiUITests.swift; sourceTree = "<group>"; };
 		32FEDB5D22E5833900462E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FEDB6922E585A800462E12 /* HomeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeVC.storyboard; sourceTree = "<group>"; };
+		32FEDB6D22E5860300462E12 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		32FEDB6F22E5866800462E12 /* SettingVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingVC.storyboard; sourceTree = "<group>"; };
+		32FEDB7122E5867C00462E12 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		32FEDB7522E5A8CB00462E12 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		32FEDB7822E6098500462E12 /* RoomCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCVCell.swift; sourceTree = "<group>"; };
+		32FEDB7922E6098500462E12 /* RoomCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomCVCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				32FEDB3B22E5833400462E12 /* AppDelegate.swift */,
-				32FEDB3D22E5833400462E12 /* ViewController.swift */,
-				32FEDB3F22E5833400462E12 /* Main.storyboard */,
-				32FEDB4222E5833800462E12 /* Assets.xcassets */,
+				32FEDB6C22E585C200462E12 /* viewController */,
+				32FEDB6B22E585B700462E12 /* storyboards */,
+				32FEDB7422E5A88C00462E12 /* extension */,
+				32FEDB7722E6092600462E12 /* customCell */,
 				32FEDB4422E5833800462E12 /* LaunchScreen.storyboard */,
 				32FEDB4722E5833800462E12 /* Info.plist */,
+				32FEDB4222E5833800462E12 /* Assets.xcassets */,
 			);
 			path = SharedTaxi;
 			sourceTree = "<group>";
@@ -123,6 +139,43 @@
 				32FEDB5D22E5833900462E12 /* Info.plist */,
 			);
 			path = SharedTaxiUITests;
+			sourceTree = "<group>";
+		};
+		32FEDB6B22E585B700462E12 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				32FEDB3F22E5833400462E12 /* Main.storyboard */,
+				32FEDB6922E585A800462E12 /* HomeVC.storyboard */,
+				32FEDB6F22E5866800462E12 /* SettingVC.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		32FEDB6C22E585C200462E12 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				32FEDB3D22E5833400462E12 /* ViewController.swift */,
+				32FEDB6D22E5860300462E12 /* HomeVC.swift */,
+				32FEDB7122E5867C00462E12 /* SettingVC.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		32FEDB7422E5A88C00462E12 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				32FEDB7522E5A8CB00462E12 /* UIViewExtension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		32FEDB7722E6092600462E12 /* customCell */ = {
+			isa = PBXGroup;
+			children = (
+				32FEDB7822E6098500462E12 /* RoomCVCell.swift */,
+				32FEDB7922E6098500462E12 /* RoomCVCell.xib */,
+			);
+			path = customCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +282,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FEDB7022E5866800462E12 /* SettingVC.storyboard in Resources */,
 				32FEDB4622E5833800462E12 /* LaunchScreen.storyboard in Resources */,
 				32FEDB4322E5833800462E12 /* Assets.xcassets in Resources */,
+				32FEDB7B22E6098500462E12 /* RoomCVCell.xib in Resources */,
+				32FEDB6A22E585A800462E12 /* HomeVC.storyboard in Resources */,
 				32FEDB4122E5833400462E12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FEDB7622E5A8CC00462E12 /* UIViewExtension.swift in Sources */,
+				32FEDB6E22E5860300462E12 /* HomeVC.swift in Sources */,
+				32FEDB7222E5867C00462E12 /* SettingVC.swift in Sources */,
+				32FEDB7A22E6098500462E12 /* RoomCVCell.swift in Sources */,
 				32FEDB3E22E5833400462E12 /* ViewController.swift in Sources */,
 				32FEDB3C22E5833400462E12 /* AppDelegate.swift in Sources */,
 			);
