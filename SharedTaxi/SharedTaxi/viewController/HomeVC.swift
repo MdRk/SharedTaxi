@@ -12,6 +12,8 @@ class HomeVC: UIViewController {
 
     @IBOutlet weak var roomCollectionView: UICollectionView!
     
+    var nextVCTitle: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,9 +32,27 @@ class HomeVC: UIViewController {
         layout.sectionInset = UIEdgeInsets(top: 20, left: 30, bottom: 20, right: 30)
         roomCollectionView.collectionViewLayout = layout
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        switch segue.identifier {
+        case "toChat":
+            let nextVC = segue.destination as! ChatVC
+            nextVC.navigationItem.title = nextVCTitle
+            break
+        default:
+            break
+        }
+    }
 }
 
 extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        nextVCTitle = "ルーム\(indexPath.row+1)"
+        
+        performSegue(withIdentifier: "toChat", sender: nil)
+    }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 6

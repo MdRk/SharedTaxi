@@ -52,11 +52,20 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="roomCollectionView" destination="Opd-dr-1kP" id="qkx-8M-mea"/>
+                        <segue destination="pgv-KI-RWK" kind="show" identifier="toChat" id="ohi-Et-wdt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2PU-Ag-5uE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="50.724637681159422" y="18.75"/>
+        </scene>
+        <!--ChatVC-->
+        <scene sceneID="jT5-oI-mtF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ChatVC" id="pgv-KI-RWK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cf4-C4-q7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="909" y="11"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ksL-E0-qST">
