@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006D20AC590CBDDD502F7689 /* Pods_SharedTaxiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042339C80C382AC241BA1823 /* Pods_SharedTaxiTests.framework */; };
 		32FEDB3C22E5833400462E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB3B22E5833400462E12 /* AppDelegate.swift */; };
 		32FEDB3E22E5833400462E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB3D22E5833400462E12 /* ViewController.swift */; };
 		32FEDB4122E5833400462E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDB3F22E5833400462E12 /* Main.storyboard */; };
@@ -21,6 +22,9 @@
 		32FEDB7622E5A8CC00462E12 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB7522E5A8CB00462E12 /* UIViewExtension.swift */; };
 		32FEDB7A22E6098500462E12 /* RoomCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB7822E6098500462E12 /* RoomCVCell.swift */; };
 		32FEDB7B22E6098500462E12 /* RoomCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDB7922E6098500462E12 /* RoomCVCell.xib */; };
+		32FEDB8122E7F2AA00462E12 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDB8022E7F2A900462E12 /* GoogleService-Info.plist */; };
+		77B66A6167291AE7B73C6F25 /* Pods_SharedTaxiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1EDFF5ACA19F9333F6708FE /* Pods_SharedTaxiUITests.framework */; };
+		D9D973C717834F9B37BF0B42 /* Pods_SharedTaxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE50B7B17CB8C3D43A8B313 /* Pods_SharedTaxi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042339C80C382AC241BA1823 /* Pods_SharedTaxiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedTaxiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05706AA6E0A7D0D6C15F295D /* Pods-SharedTaxiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedTaxiUITests.debug.xcconfig"; path = "Target Support Files/Pods-SharedTaxiUITests/Pods-SharedTaxiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		32FEDB3822E5833400462E12 /* SharedTaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedTaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FEDB3B22E5833400462E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32FEDB3D22E5833400462E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +67,14 @@
 		32FEDB7522E5A8CB00462E12 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		32FEDB7822E6098500462E12 /* RoomCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCVCell.swift; sourceTree = "<group>"; };
 		32FEDB7922E6098500462E12 /* RoomCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomCVCell.xib; sourceTree = "<group>"; };
+		32FEDB8022E7F2A900462E12 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F91C88388EC55904BFD3806 /* Pods-SharedTaxiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedTaxiUITests.release.xcconfig"; path = "Target Support Files/Pods-SharedTaxiUITests/Pods-SharedTaxiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4810F93EDA4BE87F0C660611 /* Pods-SharedTaxiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedTaxiTests.debug.xcconfig"; path = "Target Support Files/Pods-SharedTaxiTests/Pods-SharedTaxiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71EDFEE4B83525E021A7E430 /* Pods-SharedTaxiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedTaxiTests.release.xcconfig"; path = "Target Support Files/Pods-SharedTaxiTests/Pods-SharedTaxiTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BE50B7B17CB8C3D43A8B313 /* Pods_SharedTaxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedTaxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF389198EC34F8891AC7CE73 /* Pods-SharedTaxi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedTaxi.release.xcconfig"; path = "Target Support Files/Pods-SharedTaxi/Pods-SharedTaxi.release.xcconfig"; sourceTree = "<group>"; };
+		D9415009169E270505424FA3 /* Pods-SharedTaxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedTaxi.debug.xcconfig"; path = "Target Support Files/Pods-SharedTaxi/Pods-SharedTaxi.debug.xcconfig"; sourceTree = "<group>"; };
+		F1EDFF5ACA19F9333F6708FE /* Pods_SharedTaxiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedTaxiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D973C717834F9B37BF0B42 /* Pods_SharedTaxi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006D20AC590CBDDD502F7689 /* Pods_SharedTaxiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B66A6167291AE7B73C6F25 /* Pods_SharedTaxiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +112,8 @@
 				32FEDB4F22E5833900462E12 /* SharedTaxiTests */,
 				32FEDB5A22E5833900462E12 /* SharedTaxiUITests */,
 				32FEDB3922E5833400462E12 /* Products */,
+				8537C9985616CC9660EFBD7D /* Pods */,
+				3CC2E75CA75CCA89BBABE797 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +137,7 @@
 				32FEDB7722E6092600462E12 /* customCell */,
 				32FEDB4422E5833800462E12 /* LaunchScreen.storyboard */,
 				32FEDB4722E5833800462E12 /* Info.plist */,
+				32FEDB8022E7F2A900462E12 /* GoogleService-Info.plist */,
 				32FEDB4222E5833800462E12 /* Assets.xcassets */,
 			);
 			path = SharedTaxi;
@@ -178,6 +198,30 @@
 			path = customCell;
 			sourceTree = "<group>";
 		};
+		3CC2E75CA75CCA89BBABE797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE50B7B17CB8C3D43A8B313 /* Pods_SharedTaxi.framework */,
+				042339C80C382AC241BA1823 /* Pods_SharedTaxiTests.framework */,
+				F1EDFF5ACA19F9333F6708FE /* Pods_SharedTaxiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8537C9985616CC9660EFBD7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9415009169E270505424FA3 /* Pods-SharedTaxi.debug.xcconfig */,
+				AF389198EC34F8891AC7CE73 /* Pods-SharedTaxi.release.xcconfig */,
+				4810F93EDA4BE87F0C660611 /* Pods-SharedTaxiTests.debug.xcconfig */,
+				71EDFEE4B83525E021A7E430 /* Pods-SharedTaxiTests.release.xcconfig */,
+				05706AA6E0A7D0D6C15F295D /* Pods-SharedTaxiUITests.debug.xcconfig */,
+				3F91C88388EC55904BFD3806 /* Pods-SharedTaxiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FEDB6022E5833900462E12 /* Build configuration list for PBXNativeTarget "SharedTaxi" */;
 			buildPhases = (
+				9810C413A67A4E6327B0D1B7 /* [CP] Check Pods Manifest.lock */,
 				32FEDB3422E5833400462E12 /* Sources */,
 				32FEDB3522E5833400462E12 /* Frameworks */,
 				32FEDB3622E5833400462E12 /* Resources */,
+				6BE9977DD817CC3FE47069AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FEDB6322E5833900462E12 /* Build configuration list for PBXNativeTarget "SharedTaxiTests" */;
 			buildPhases = (
+				5B55A24228D643A21117873C /* [CP] Check Pods Manifest.lock */,
 				32FEDB4822E5833900462E12 /* Sources */,
 				32FEDB4922E5833900462E12 /* Frameworks */,
 				32FEDB4A22E5833900462E12 /* Resources */,
@@ -220,6 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FEDB6622E5833900462E12 /* Build configuration list for PBXNativeTarget "SharedTaxiUITests" */;
 			buildPhases = (
+				CA018D2D9D89B6FFC6AB8730 /* [CP] Check Pods Manifest.lock */,
 				32FEDB5322E5833900462E12 /* Sources */,
 				32FEDB5422E5833900462E12 /* Frameworks */,
 				32FEDB5522E5833900462E12 /* Resources */,
@@ -288,6 +336,7 @@
 				32FEDB7B22E6098500462E12 /* RoomCVCell.xib in Resources */,
 				32FEDB6A22E585A800462E12 /* HomeVC.storyboard in Resources */,
 				32FEDB4122E5833400462E12 /* Main.storyboard in Resources */,
+				32FEDB8122E7F2AA00462E12 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +355,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B55A24228D643A21117873C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharedTaxiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BE9977DD817CC3FE47069AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SharedTaxi/Pods-SharedTaxi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SharedTaxi/Pods-SharedTaxi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SharedTaxi/Pods-SharedTaxi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9810C413A67A4E6327B0D1B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharedTaxi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA018D2D9D89B6FFC6AB8730 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharedTaxiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32FEDB3422E5833400462E12 /* Sources */ = {
@@ -490,6 +625,7 @@
 		};
 		32FEDB6122E5833900462E12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9415009169E270505424FA3 /* Pods-SharedTaxi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +644,7 @@
 		};
 		32FEDB6222E5833900462E12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF389198EC34F8891AC7CE73 /* Pods-SharedTaxi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +663,7 @@
 		};
 		32FEDB6422E5833900462E12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4810F93EDA4BE87F0C660611 /* Pods-SharedTaxiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -547,6 +685,7 @@
 		};
 		32FEDB6522E5833900462E12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71EDFEE4B83525E021A7E430 /* Pods-SharedTaxiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -568,6 +707,7 @@
 		};
 		32FEDB6722E5833900462E12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05706AA6E0A7D0D6C15F295D /* Pods-SharedTaxiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,6 +728,7 @@
 		};
 		32FEDB6822E5833900462E12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F91C88388EC55904BFD3806 /* Pods-SharedTaxiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
