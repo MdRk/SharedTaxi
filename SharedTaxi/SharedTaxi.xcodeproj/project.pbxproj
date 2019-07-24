@@ -21,6 +21,8 @@
 		32FEDB7622E5A8CC00462E12 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB7522E5A8CB00462E12 /* UIViewExtension.swift */; };
 		32FEDB7A22E6098500462E12 /* RoomCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB7822E6098500462E12 /* RoomCVCell.swift */; };
 		32FEDB7B22E6098500462E12 /* RoomCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDB7922E6098500462E12 /* RoomCVCell.xib */; };
+		32FEDB7D22E7DC0200462E12 /* ChatVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEDB7C22E7DC0200462E12 /* ChatVC.storyboard */; };
+		32FEDB7F22E7DC1B00462E12 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEDB7E22E7DC1B00462E12 /* ChatVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		32FEDB7522E5A8CB00462E12 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		32FEDB7822E6098500462E12 /* RoomCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCVCell.swift; sourceTree = "<group>"; };
 		32FEDB7922E6098500462E12 /* RoomCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomCVCell.xib; sourceTree = "<group>"; };
+		32FEDB7C22E7DC0200462E12 /* ChatVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatVC.storyboard; sourceTree = "<group>"; };
+		32FEDB7E22E7DC1B00462E12 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,7 @@
 			children = (
 				32FEDB3F22E5833400462E12 /* Main.storyboard */,
 				32FEDB6922E585A800462E12 /* HomeVC.storyboard */,
+				32FEDB7C22E7DC0200462E12 /* ChatVC.storyboard */,
 				32FEDB6F22E5866800462E12 /* SettingVC.storyboard */,
 			);
 			path = storyboards;
@@ -156,6 +161,7 @@
 			children = (
 				32FEDB3D22E5833400462E12 /* ViewController.swift */,
 				32FEDB6D22E5860300462E12 /* HomeVC.swift */,
+				32FEDB7E22E7DC1B00462E12 /* ChatVC.swift */,
 				32FEDB7122E5867C00462E12 /* SettingVC.swift */,
 			);
 			path = viewController;
@@ -287,6 +293,7 @@
 				32FEDB4322E5833800462E12 /* Assets.xcassets in Resources */,
 				32FEDB7B22E6098500462E12 /* RoomCVCell.xib in Resources */,
 				32FEDB6A22E585A800462E12 /* HomeVC.storyboard in Resources */,
+				32FEDB7D22E7DC0200462E12 /* ChatVC.storyboard in Resources */,
 				32FEDB4122E5833400462E12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32FEDB7622E5A8CC00462E12 /* UIViewExtension.swift in Sources */,
+				32FEDB7F22E7DC1B00462E12 /* ChatVC.swift in Sources */,
 				32FEDB6E22E5860300462E12 /* HomeVC.swift in Sources */,
 				32FEDB7222E5867C00462E12 /* SettingVC.swift in Sources */,
 				32FEDB7A22E6098500462E12 /* RoomCVCell.swift in Sources */,
